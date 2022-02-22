@@ -30,6 +30,7 @@ html{
     right: 0;
     height: 46.5px;
     background-color: black;   
+    z-index: 1;
 }
 
 #nav, .subnav{
@@ -107,11 +108,40 @@ html{
     
 }
 
-/* #slider{
+#slider{
+    position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('assets/img/slider/slider1.jpg') top center / cover no-repeat;
-} */
+    background: url('/w3_band/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    
+}
+
+.text-content{
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    /* 
+    Cách 1: 
+    left: 50%;
+    transform: translateX(-50%); 
+    Cách 2: width: 100%; 
+    Cách 3:  
+    left: 0px;
+    right:0px;*/
+    width: 100%;
+    text-align: center;
+}
+
+.text-heading{
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.text-description{
+    margin-top: 25px;
+    font-size: 22.5px;
+    
+}
 
 #content{
 
