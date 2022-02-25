@@ -19,6 +19,14 @@ html{
 3. Màu sắc
 4. Kiểu dáng (kiểu chữ, hình tròn, vuông, ...) */
 
+.clear{
+    clear: both;
+}
+
+.text-white{
+    color:#fff !important;
+}
+
 #main{
 
 }
@@ -113,7 +121,6 @@ html{
     margin-top: 46.5px;
     padding-top: 50%;
     background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
-    width: 100%;
 }
 
 .text-content{
@@ -194,6 +201,44 @@ html{
     margin-top: 15px;
     border-radius: 4px;
 }
+
+/* Tour section */
+.tour-section{
+    background-color: black;
+}
+
+.tickets-list{
+    background-color: white;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.tickets-list li{
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-list .sold-out{
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+.tickets-list .quantity{
+    float: right;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: white;
+    line-height: 24px;
+    text-align: center;
+    margin: -3px;
+}
+
 #footer{
 
 }
